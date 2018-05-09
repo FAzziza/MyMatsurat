@@ -10,18 +10,18 @@ import android.widget.Button;
 import genius.com.mymatsurat.ActivityMenu;
 import genius.com.mymatsurat.R;
 
-public class Activity29 extends AppCompatActivity {
+public class Activity30 extends AppCompatActivity {
 
     private Button btnNext;
-    private Integer i = 3;
+    private Integer i = 1;
     private String value = Integer.toString(i);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_29);
+        setContentView(R.layout.activity_30);
 
-        btnNext = (Button) findViewById(R.id.button29);
+        btnNext = (Button) findViewById(R.id.buttonEnd);
         btnNext.setTextColor(Color.WHITE);
         btnNext.setText("Baca "+ value +"X" );
         btnNext.setOnClickListener(new View.OnClickListener() {
@@ -36,7 +36,7 @@ public class Activity29 extends AppCompatActivity {
                     btnNext.setText("Baca "+ value +"X");
 
                 } else {
-                    Intent intent = new Intent(Activity29.this, Activity30.class);
+                    Intent intent = new Intent(Activity30.this, ActivityMenu.class);
                     startActivity(intent);
                 }
             }

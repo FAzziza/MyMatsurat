@@ -44,7 +44,8 @@
         <activity android:name=".Matsurat.Activity26" />
         <activity android:name=".Matsurat.Activity27" />
         <activity android:name=".Matsurat.Activity28" />
-        <activity android:name=".Matsurat.Activity29"></activity>
+        <activity android:name=".Matsurat.Activity29" />
+        <activity android:name=".Matsurat.Activity30"></activity>
     </application>
 
 </manifest>

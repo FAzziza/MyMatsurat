@@ -6,20 +6,19 @@
     android:layout_height="match_parent"
     android:background="@color/back"
     android:orientation="vertical"
-    tools:context="genius.com.mymatsurat.Matsurat.Activity29">
+    tools:context="genius.com.mymatsurat.Matsurat.Activity30">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="420dp"
-        android:src="@drawable/ee"/>
+        android:layout_height="420dp"/>
 
     <Button
-        android:id="@+id/button29"
+        android:id="@+id/buttonEnd"
         android:layout_width="140dp"
         android:layout_height="50dp"
         android:layout_marginLeft="200dp"
-        android:textColor="@color/white"
         android:layout_marginTop="10dp"
+        android:textColor="@color/white"
         android:background="@drawable/rounded_button"
         />
 
