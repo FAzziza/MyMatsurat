@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
     android:orientation="vertical"
     tools:context="genius.com.mymatsurat.Matsurat.Activity2">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="420dp"
-        android:src="@drawable/code"/>
+        android:src="@drawable/w"/>
 
     <Button
         android:id="@+id/button2"
@@ -18,6 +19,7 @@
         android:layout_height="50dp"
         android:layout_marginLeft="200dp"
         android:layout_marginTop="10dp"
+        android:textColor="w"
         android:background="@drawable/rounded_button"
         />
 

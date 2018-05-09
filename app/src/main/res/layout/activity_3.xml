@@ -4,19 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/back"
     android:orientation="vertical"
     tools:context="genius.com.mymatsurat.Matsurat.Activity3">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="420dp"
-        android:src="@drawable/ship"/>
+        android:src="@drawable/e"/>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="140dp"
         android:layout_height="50dp"
         android:layout_marginLeft="200dp"
+        android:textColor="@color/white"
         android:layout_marginTop="10dp"
         android:background="@drawable/rounded_button"
         />
