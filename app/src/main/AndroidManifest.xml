@@ -9,18 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Matsurat.Activity1">
+        <activity android:name=".ActivityMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Matsurat.Activity1" />
         <activity android:name=".Matsurat.Activity2" />
         <activity android:name=".Matsurat.Activity3" />
         <activity android:name=".Matsurat.Activity4" />
         <activity android:name=".Matsurat.Activity5" />
-        <activity android:name=".ActivityMenu" />
         <activity android:name=".Matsurat.Activity6" />
         <activity android:name=".Matsurat.Activity7" />
         <activity android:name=".Matsurat.Activity8" />

@@ -14,7 +14,7 @@
         android:src="@drawable/qq"/>
 
     <Button
-        android:id="@+id/button20"
+        android:id="@+id/button27"
         android:layout_width="140dp"
         android:layout_height="50dp"
         android:layout_marginLeft="200dp"
