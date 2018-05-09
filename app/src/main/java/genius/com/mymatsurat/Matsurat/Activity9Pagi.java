@@ -9,7 +9,7 @@ import android.widget.Button;
 
 import genius.com.mymatsurat.R;
 
-public class Activity9 extends AppCompatActivity {
+public class Activity9Pagi extends AppCompatActivity {
 
     private Button btnNext;
     private Integer i = 3;
@@ -36,7 +36,7 @@ public class Activity9 extends AppCompatActivity {
                     btnNext.setText("Baca "+ value +"X");
 
                 } else {
-                    Intent intent = new Intent(Activity9.this, Activity10.class);
+                    Intent intent = new Intent(Activity9Pagi.this, Activity10Pagi.class);
                     startActivity(intent);
                 }
             }

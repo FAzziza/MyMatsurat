@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/back"
     android:orientation="vertical"
-    tools:context="genius.com.mymatsurat.Matsurat.Activity12">
+    tools:context="genius.com.mymatsurat.Matsurat.Activity12Pagi">
 
     <ImageView
         android:layout_width="match_parent"

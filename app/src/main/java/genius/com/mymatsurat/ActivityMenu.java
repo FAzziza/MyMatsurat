@@ -18,6 +18,7 @@ import static android.widget.Toast.LENGTH_SHORT;
 public class ActivityMenu extends AppCompatActivity {
 
     private Button btnSore, btnPagi;
+    public static String Kapan = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,7 @@ public class ActivityMenu extends AppCompatActivity {
         btnPagi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Kapan = "Pagi";
                 Intent i = new Intent(ActivityMenu.this, Activity1.class);
                 startActivity(i);
             }
@@ -43,8 +45,9 @@ public class ActivityMenu extends AppCompatActivity {
         btnSore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Toast.makeText(ActivityMenu.this, "Under Maintenance", LENGTH_SHORT).show();
+                Kapan = "Sore";
+                Intent o = new Intent(ActivityMenu.this, Activity1.class);
+                startActivity(o);
             }
         });
     }

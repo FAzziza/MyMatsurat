@@ -9,7 +9,7 @@ import android.widget.Button;
 
 import genius.com.mymatsurat.R;
 
-public class Activity11 extends AppCompatActivity {
+public class Activity12Pagi extends AppCompatActivity {
 
     private Button btnNext;
     private Integer i = 3;
@@ -18,9 +18,9 @@ public class Activity11 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_11);
+        setContentView(R.layout.activity_12);
 
-        btnNext = (Button) findViewById(R.id.button11);
+        btnNext = (Button) findViewById(R.id.button12);
         btnNext.setTextColor(Color.WHITE);
         btnNext.setText("Baca "+ value +"X" );
         btnNext.setOnClickListener(new View.OnClickListener() {
@@ -35,7 +35,7 @@ public class Activity11 extends AppCompatActivity {
                     btnNext.setText("Baca "+ value +"X");
 
                 } else {
-                    Intent intent = new Intent(Activity11.this, Activity12.class);
+                    Intent intent = new Intent(Activity12Pagi.this, Activity13.class);
                     startActivity(intent);
                 }
             }

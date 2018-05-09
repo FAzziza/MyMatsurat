@@ -6,8 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
+import genius.com.mymatsurat.ActivityMenu;
 import genius.com.mymatsurat.R;
+
+import static genius.com.mymatsurat.ActivityMenu.Kapan;
 
 public class Activity8 extends AppCompatActivity {
 
@@ -35,10 +39,25 @@ public class Activity8 extends AppCompatActivity {
                     btnNext.setText("Baca "+ value +"X");
 
                 } else {
-                    Intent intent = new Intent(Activity8.this, Activity9.class);
-                    startActivity(intent);
+                    lanjut();
                 }
             }
         });
     }
+    private void lanjut(){
+        String pagi = "Pagi";
+        String sore = "Sore";
+
+        if(Kapan == pagi){
+            Intent u = new Intent(Activity8.this, Activity9Pagi.class);
+            startActivity(u);
+        }else if (Kapan == sore){
+            Intent p = new Intent(Activity8.this, ActivityMenu.class);
+            startActivity(p);
+        }else{
+            Toast.makeText(Activity8.this, "Cek lagi", Toast.LENGTH_SHORT).show();
+        }
+
+    }
+
 }

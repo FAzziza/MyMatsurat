@@ -24,10 +24,10 @@
         <activity android:name=".Matsurat.Activity6" />
         <activity android:name=".Matsurat.Activity7" />
         <activity android:name=".Matsurat.Activity8" />
-        <activity android:name=".Matsurat.Activity9" />
-        <activity android:name=".Matsurat.Activity10" />
-        <activity android:name=".Matsurat.Activity11" />
-        <activity android:name=".Matsurat.Activity12" />
+        <activity android:name=".Matsurat.Activity9Pagi" />
+        <activity android:name=".Matsurat.Activity10Pagi" />
+        <activity android:name=".Matsurat.Activity11Pagi" />
+        <activity android:name=".Matsurat.Activity12Pagi" />
         <activity android:name=".Matsurat.Activity13" />
         <activity android:name=".Matsurat.Activity14" />
         <activity android:name=".Matsurat.Activity15" />
