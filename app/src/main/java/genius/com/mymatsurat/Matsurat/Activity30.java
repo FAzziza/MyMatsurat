@@ -10,7 +10,7 @@ import android.widget.Button;
 import genius.com.mymatsurat.ActivityMenu;
 import genius.com.mymatsurat.R;
 
-public class        Activity30 extends AppCompatActivity {
+public class Activity30 extends AppCompatActivity {
 
     private Button btnNext;
     private Integer i = 1;
@@ -20,6 +20,8 @@ public class        Activity30 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_30);
+
+        onBackPressed();
 
         btnNext = (Button) findViewById(R.id.buttonEnd);
         btnNext.setTextColor(Color.WHITE);
@@ -42,4 +44,6 @@ public class        Activity30 extends AppCompatActivity {
             }
         });
     }
+    @Override
+    public void onBackPressed() {}
 }

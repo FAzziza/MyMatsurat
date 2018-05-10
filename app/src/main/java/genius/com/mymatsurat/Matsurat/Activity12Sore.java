@@ -19,7 +19,7 @@ public class Activity12Sore extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_activity12_sore);
-
+        onBackPressed();
         btnNext = (Button) findViewById(R.id.button12Sore);
         btnNext.setTextColor(Color.WHITE);
         btnNext.setText("Baca "+ value +"X" );
@@ -41,4 +41,6 @@ public class Activity12Sore extends AppCompatActivity {
             }
         });
     }
+    @Override
+    public void onBackPressed() {}
 }

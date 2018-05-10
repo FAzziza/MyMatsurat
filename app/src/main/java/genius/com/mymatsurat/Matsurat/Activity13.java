@@ -19,7 +19,7 @@ public class Activity13 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_13);
-
+        onBackPressed();
         btnNext = (Button) findViewById(R.id.button13);
         btnNext.setTextColor(Color.WHITE);
         btnNext.setText("Baca "+ value +"X" );
@@ -43,4 +43,6 @@ public class Activity13 extends AppCompatActivity {
 
 
     }
+    @Override
+    public void onBackPressed() {}
 }

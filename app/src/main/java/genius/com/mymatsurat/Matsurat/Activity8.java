@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 import genius.com.mymatsurat.ActivityMenu;
 import genius.com.mymatsurat.R;
@@ -23,7 +22,7 @@ public class Activity8 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_8);
-
+        onBackPressed();
         btnNext = (Button) findViewById(R.id.button8);
         btnNext.setTextColor(Color.WHITE);
         btnNext.setText("Baca "+ value +"X" );
@@ -57,5 +56,8 @@ public class Activity8 extends AppCompatActivity {
         }
 
     }
+    @Override
+    public void onBackPressed() {}
+
 
 }
