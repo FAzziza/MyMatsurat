@@ -12,7 +12,7 @@ import genius.com.mymatsurat.R;
 public class Activity28 extends AppCompatActivity {
 
     private Button btnNext;
-    private Integer i = 3;
+    private Integer i = 1;
     private String value = Integer.toString(i);
 
     @Override

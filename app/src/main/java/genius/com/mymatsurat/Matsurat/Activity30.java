@@ -10,7 +10,7 @@ import android.widget.Button;
 import genius.com.mymatsurat.ActivityMenu;
 import genius.com.mymatsurat.R;
 
-public class Activity30 extends AppCompatActivity {
+public class        Activity30 extends AppCompatActivity {
 
     private Button btnNext;
     private Integer i = 1;
