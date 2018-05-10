@@ -6,14 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
-import genius.com.mymatsurat.ActivityMenu;
 import genius.com.mymatsurat.R;
 
-import static genius.com.mymatsurat.ActivityMenu.Kapan;
-
-public class Activity8 extends AppCompatActivity {
+public class Activity10Sore extends AppCompatActivity {
 
     private Button btnNext;
     private Integer i = 3;
@@ -22,9 +18,9 @@ public class Activity8 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_8);
+        setContentView(R.layout.activity_activity10_sore);
 
-        btnNext = (Button) findViewById(R.id.button8);
+        btnNext = (Button) findViewById(R.id.button10Sore);
         btnNext.setTextColor(Color.WHITE);
         btnNext.setText("Baca "+ value +"X" );
         btnNext.setOnClickListener(new View.OnClickListener() {
@@ -39,23 +35,10 @@ public class Activity8 extends AppCompatActivity {
                     btnNext.setText("Baca "+ value +"X");
 
                 } else {
-                    lanjut();
+                    Intent intent = new Intent(Activity10Sore.this, Activity11Sore.class);
+                    startActivity(intent);
                 }
             }
         });
     }
-    private void lanjut(){
-        String pagi = "Pagi";
-        String sore = "Sore";
-
-        if(Kapan == pagi){
-            Intent u = new Intent(Activity8.this, Activity9Pagi.class);
-            startActivity(u);
-        }else if (Kapan == sore){
-            Intent p = new Intent(Activity8.this, Activity9Sore.class);
-            startActivity(p);
-        }
-
-    }
-
 }
